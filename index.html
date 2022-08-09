@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Tables and Forms</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <main>
       <!-- Complete the Exercises HERE -->
-      <div>
+      
         <table>
+          <thead>
           <tr>
             <th></th>
             <th>total servings</th>
@@ -19,6 +21,9 @@
             <th>sugars per serving</th>
             <th>sodium per serving</th>
           </tr>
+          </thead>
+          <tbody>
+
           
           <tr>
             <td>Coca Cola</td>
@@ -69,37 +74,38 @@
             <td>46g</td>
             <td>60mg</td>
           </tr>
+        
         </table>
-      </div>
+      
 
       <div>
         <form>
-          <div>
+          <div class="form-group">
             <label for="total servings">total servings</label>
             <input name="total servings" id="total servings">
           </div>
           
-          <div>
+          <div class="form-group">
             <label for="serving size">serving size</label>
             <input name="serving size" id="serving size">
           </div>
           
-          <div>
+          <div class="form-group">
             <label for="calories per serving">calories per serving</label>
             <input name="calories per serving" id="calories per serving">
           </div>
           
-          <div>
+          <div class="form-group">
             <label for="carbs per serving">carbs per serving</label>
             <input name="carbs per serving" id="carbs per serving">
           </div>
           
-          <div>
+          <div class="form-group">
             <label for="sugars per serving">sugars per serving</label>
             <input name="sugars per serving" id="sugars per serving">
           </div>
           
-          <div>
+          <div class="form-group">
             <label for="sodium per serving">sodium per serving</label>
             <input name="sodium per serving" id="sodium per serving">
           </div>
